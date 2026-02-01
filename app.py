@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 
-genai_client = genai.Client(api_key="AIzaSyCz6zwYteyi0UoLJpoiTWsSP4qa0IgsLD0")
+genai_client = genai.Client(api_key="YOUR_API_KEY")
 
 st.set_page_config(page_title="Hỏi đáp cùng Chat", layout="centered")
 st.title("💬 Hỏi đáp cùng Chat")
